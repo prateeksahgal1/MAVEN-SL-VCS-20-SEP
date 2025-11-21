@@ -20,7 +20,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'mvn clean'
+				echo 'welcome clean stage'
 			}
 		}	
         stage('Clean Success Stage')
@@ -34,7 +34,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'mvn install'
+				echo 'install stage'
 			}
 		}		
 		
