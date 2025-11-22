@@ -28,6 +28,11 @@ public class MyCalc {
 		return a*b;
 	}
 
+	public int mul2(int a, int b)
+	{
+		return a*b;
+	}
+
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
 		System.out.println("Sum is :"+calc.sum(20, 10));
@@ -35,8 +40,8 @@ public class MyCalc {
 		System.out.println("Mul is :"+calc.mul(20, 10));
 		System.out.println("Div is :"+calc.div(20, 10));
 		System.out.println("Mod is :"+calc.mod(20, 10));
-		System.out.println("mul1 is:"+calc.mul1(20, 20));
-		
+		System.out.println("mul11 is:"+calc.mul1(20, 20));
+		System.out.println("mul12 is:"+calc.mul2(20, 20));
 		System.out.println("This is Master Barnch");
 		
 	}
